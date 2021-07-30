@@ -1,0 +1,40 @@
+navbar#subheader {
+  background: #232f3e !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+#subheader .nav_links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#subheader .nav_links ul li {
+  list-style: none;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+#subheader .nav_links ul li:hover {
+  color: #febd69;
+}
+
+.right__banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right__banner #shop__now {
+  font-weight: 300 !important;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.right__banner:hover {
+  color: #febd69;
+}

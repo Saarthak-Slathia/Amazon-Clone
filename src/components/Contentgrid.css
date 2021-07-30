@@ -1,0 +1,44 @@
+.grid_contents {
+  padding: 1rem;
+  padding-top: 2.5rem;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin: 1rem;
+  width: 98%;
+  background-color: #fff;
+}
+
+.content__grid {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.grids {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content__grid img {
+  width: 170px;
+}
+
+.content__grid h1 {
+  font-size: 21px;
+  color: #999;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.content__grid h3 {
+  margin-top: 1rem;
+  font-weight: 200;
+}
+
+.price {
+  margin: 1rem 2rem;
+  color: #ffb14b;
+  font-weight: 300;
+}
